@@ -1,5 +1,3 @@
-
-
 def mountains_weight(weight):
     count = 0
     empty = (2 * weight) - 2
