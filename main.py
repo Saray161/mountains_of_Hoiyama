@@ -23,7 +23,6 @@ def mountains_weight(weight):
     return sum(nums_array)
 
 
-# Проверка вводимых данных на то, что это нечетное число
 def input_number():
     number = input("Enter an odd weight: ")
     if number.isdecimal() and int(number) % 2 != 0 and int(number) > 0:
